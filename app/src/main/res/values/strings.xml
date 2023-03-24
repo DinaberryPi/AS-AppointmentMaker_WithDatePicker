@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">week4</string>
+    <string name="hint">Enter the bill</string>
+    <string name="total">Your total is: </string>
+    <string name="calculate">Calculate</string>
+    <string name="title">Calculate your total with sale tax (6.25%)</string>
+
+</resources>
