@@ -30,7 +30,7 @@ The following STRETCH features are implemented:
       
 The following EXTRA features are implemented:
 
-- [x] List anything else that you added to improve the app!
+- [x] List anything else that you added to improve the app!  
       I used drawable to modify the UI
 
 ## Video Demo
