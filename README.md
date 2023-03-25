@@ -25,12 +25,13 @@ The following REQUIRED features are completed:
 The following STRETCH features are implemented:
 
 - [ ] Implement ViewBinding to reduce boilerplate code and increase efficiency
-- [x] Add at least one (1) additional functionality
-  I used datepicker to allow user to pick date to make appointment
+- [x] Add at least one (1) additional functionality  
+      I used datepicker to allow user to pick date to make appointment
+      
 The following EXTRA features are implemented:
 
 - [x] List anything else that you added to improve the app!
-  I used drawable to modify the UI
+      I used drawable to modify the UI
 
 ## Video Demo
 
