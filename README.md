@@ -26,12 +26,10 @@ The following STRETCH features are implemented:
 
 - [ ] Implement ViewBinding to reduce boilerplate code and increase efficiency
 - [x] Add at least one (1) additional functionality
-
+  I used datepicker to allow user to pick date to make appointment
 The following EXTRA features are implemented:
 
 - [x] List anything else that you added to improve the app!
-  
-  I used datepicker to allow user to pick date to make appointment
   I used drawable to modify the UI
 
 ## Video Demo
