@@ -10,7 +10,7 @@ If I had to describe this project in three (3) emojis, they would be: **❤️�
 
 ## Video Demo
 
-https://imgur.com/a/AtYph5h
+https://imgur.com/a/wOMgCQB
 
 ## License
 
