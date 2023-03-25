@@ -7,61 +7,82 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:minHeight="48dp"
+        android:text="@string/result"
+        android:textColor="@color/princess"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/username"
+        android:importantForAutofill="no"
+        android:inputType="textNoSuggestions"
+        android:textColorHighlight="@color/princess"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083"></EditText>
+
+    <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:minHeight="48dp"
-        android:text="@string/title"
-        android:textSize="20sp"
-        android:textColor="@color/purple_700"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.57"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.163" />
-
-    <TextView
-        android:id="@+id/total"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:minHeight="48dp"
-        android:text="@string/total"
-        android:textSize="20sp"
-        android:textColor="@color/purple_700"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.521" />
-
-    <EditText
-        android:id="@+id/enterBill"
-        android:layout_width="wrap_content"
-        android:layout_height="66dp"
-        android:hint="@string/hint"
-        android:importantForAutofill="no"
-        android:inputType="number"
-        android:textColorHighlight="@color/purple_700"
         android:gravity="center_horizontal"
+        android:text="@string/title"
+        android:textColor="@color/princess"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.272"></EditText>
+        app:layout_constraintVertical_bias="0.01" />
 
     <Button
-        android:id="@+id/calculate"
+        android:id="@+id/confirm"
+        style="@style/Button"
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:text="@string/calculate"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pink_button_background"
+        android:text="@string/confirm"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/enterBill"
-        app:layout_constraintVertical_bias="0.078" />
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        app:layout_constraintVertical_bias="0.751" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        style="@style/DatePickerStyle"
+        android:layout_width="286dp"
+        android:layout_height="396dp"
+        android:background="@drawable/rounded_corner"
+        android:calendarViewShown="false"
+        android:datePickerMode="calendar"
+        android:headerBackground="@drawable/calendar_header_bg"
+        android:spinnersShown="true"
+        app:layout_constraintBottom_toTopOf="@+id/confirm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        app:layout_constraintVertical_bias="0.132" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

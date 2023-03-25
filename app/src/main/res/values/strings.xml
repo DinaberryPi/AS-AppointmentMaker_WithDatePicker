@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">week4</string>
-    <string name="hint">Enter the bill</string>
-    <string name="total">Your total is: </string>
-    <string name="calculate">Calculate</string>
-    <string name="title">Calculate your total with sale tax (6.25%)</string>
+    <string name="app_name">Appointment预约</string>
+    <string name="result"></string>
+    <string name="username">Your name 你的名字</string>
+    <string name="confirm">confirm 确定</string>
+    <string name="title">Please enter your name and pick a date \n 请输入你的名字和预约日期。</string>
+    <string name="appointment_message">Dear %1$s, you have made an appointment with us on %2$s.\n尊敬的用户，您的预约日期是%2$s</string>
 
 </resources>
